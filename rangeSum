@@ -9,8 +9,8 @@ public class Solution {
     //     return prefixSum;
     // }
     public long[] rangeSum(int[] A, int[][] B) {
-         int n = A.length;
-        int [] prefixSum = new int[n];
+        long n = A.length;
+        long [] prefixSum = new long[A.length];
         long ans[] = new long[B.length];
         prefixSum[0]=A[0];
         for(int i = 1; i<n ; i++){
